@@ -165,7 +165,7 @@ public class IntegratedCadProject
         return false;
     }
 
-    [CommandMethod("CountEntities")]
+    [CommandMethod("CountEntitie")]
     public void CountEntities()
     {
         Document doc = AcApp.DocumentManager.MdiActiveDocument;

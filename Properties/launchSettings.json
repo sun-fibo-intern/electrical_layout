@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AutoCAD 2026": {
+      "commandName": "Executable",
+      "executablePath": "D:\\autocad\\AutoCAD 2026\\acad.exe",
+      "workingDirectory": "D:\\autocad\\AutoCAD 2026"
+    }
+  }
+}

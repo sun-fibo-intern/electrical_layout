@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Downloads\\ExcelToCad\\ExcelToCad.App\\ExcelToCad.App.csproj": {}
+    "D:\\electrical_layout\\ExcelToCad.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Downloads\\ExcelToCad\\ExcelToCad.App\\ExcelToCad.App.csproj": {
+    "D:\\electrical_layout\\ExcelToCad.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Downloads\\ExcelToCad\\ExcelToCad.App\\ExcelToCad.App.csproj",
+        "projectUniqueName": "D:\\electrical_layout\\ExcelToCad.App.csproj",
         "projectName": "ExcelToCad.App",
-        "projectPath": "C:\\Users\\DELL\\Downloads\\ExcelToCad\\ExcelToCad.App\\ExcelToCad.App.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Downloads\\ExcelToCad\\ExcelToCad.App\\obj\\",
+        "projectPath": "D:\\electrical_layout\\ExcelToCad.App.csproj",
+        "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
+        "outputPath": "D:\\electrical_layout\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

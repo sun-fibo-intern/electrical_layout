@@ -13,6 +13,7 @@
     <!-- Use a dedicated build output folder so existing loaded modules (AutoCAD) don't lock the default bin folder. -->
     <OutputPath>bin\Debug_Build\</OutputPath>
     <Platforms>AnyCPU;x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);MSB3277</MSBuildWarningsAsMessages>
   </PropertyGroup>
@@ -37,15 +38,15 @@
 
   <ItemGroup>
     <Reference Include="accoremgd">
-      <HintPath>..\..\AutoCAD 2026\accoremgd.dll</HintPath>
+      <HintPath>D:\autocad\AutoCAD 2026\accoremgd.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Acdbmgd">
-      <HintPath>..\..\AutoCAD 2026\acdbmgd.dll</HintPath>
+      <HintPath>D:\autocad\AutoCAD 2026\acdbmgd.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Acmgd">
-      <HintPath>..\..\AutoCAD 2026\acmgd.dll</HintPath>
+      <HintPath>D:\autocad\AutoCAD 2026\acmgd.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
