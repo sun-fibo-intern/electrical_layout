@@ -77,7 +77,7 @@ public class IntegratedCadProject
         }
     }
 
-    [CommandMethod("RUNALLTASKS")]
+    [CommandMethod("Layoutgeneration")]
     public void RunAllTasks()
     {
         WireAnalysisResult wireAnalysis = AnalyzeConnectedWires();
