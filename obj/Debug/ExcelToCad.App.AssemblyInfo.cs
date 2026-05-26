@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExcelToCad.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7eb1672afaf70e9fec150ee54399e7d7621f6e4a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+017527ed52b405d0ceaf401a58405d443420a771")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExcelToCad.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExcelToCad.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
