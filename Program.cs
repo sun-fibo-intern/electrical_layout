@@ -32,17 +32,14 @@ public class IntegratedCadProject
 
                 AssemblyName requested = new AssemblyName(a.Name);
 
-                // Try loading from main folder first
                 string dll = Path.Combine(folder, requested.Name + ".dll");
                 if (File.Exists(dll))
                     return Assembly.LoadFrom(dll);
 
-                // Try loading just the name without version info
                 dll = Path.Combine(folder, a.Name.Split(',')[0] + ".dll");
                 if (File.Exists(dll))
                     return Assembly.LoadFrom(dll);
 
-                // Try bin subfolder
                 string binFolder = Path.Combine(folder, "bin");
                 if (Directory.Exists(binFolder))
                 {
