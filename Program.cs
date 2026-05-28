@@ -1,4 +1,4 @@
-﻿using Autodesk.AutoCAD.ApplicationServices;
+using Autodesk.AutoCAD.ApplicationServices;
 using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.EditorInput;
 using Autodesk.AutoCAD.Geometry;
@@ -107,11 +107,7 @@ public class IntegratedCadProject
         }
     }
 
-<<<<<<< HEAD
-    [CommandMethod("Layoutgeneration")]
-=======
     [CommandMethod("RunAllTasks")]
->>>>>>> ebb82c9 (Updated project)
     public void RunAllTasks()
     {
         Document doc = AcApp.DocumentManager.MdiActiveDocument;
